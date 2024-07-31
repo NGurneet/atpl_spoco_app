@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "76883414918",
+    "project_id": "spoco-app-e3ab6",
+    "storage_bucket": "spoco-app-e3ab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76883414918:android:32cfa0fd1cc08c311aa607",
+        "android_client_info": {
+          "package_name": "com.example.spoco_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5uzqIUZTK7mU1Bi46Oe8TnGa1VzDXfzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76883414918:android:59255a0e6b6316ed1aa607",
+        "android_client_info": {
+          "package_name": "com.spocoapp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5uzqIUZTK7mU1Bi46Oe8TnGa1VzDXfzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
