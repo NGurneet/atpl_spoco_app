@@ -7,6 +7,7 @@ environment:
   sdk: '>=3.4.3 <4.0.0'
 
 dependencies:
+  carousel_slider: ^4.2.1
   cloud_firestore: ^5.1.0
   country_state_city_picker: ^1.2.8
   file_picker: ^8.0.6
@@ -16,6 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
   geolocator: ^12.0.0
+  image_picker: ^1.1.2
   provider: ^6.1.2
 
 dev_dependencies:
@@ -27,3 +29,4 @@ flutter:
   uses-material-design: true
   assets:
   - assets/spoco_app_logo_black.png
+  - assets/default_avatar.png

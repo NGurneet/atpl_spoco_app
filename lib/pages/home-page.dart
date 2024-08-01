@@ -1,6 +1,7 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:spoco_app/pages/get-user-profile.dart';
 import 'package:spoco_app/pages/list-my-turfs.dart';
 import 'package:spoco_app/pages/multi-image-upload.dart';
 import 'package:spoco_app/pages/my-turfs-page.dart';
@@ -29,7 +30,7 @@ class _HomePageState extends State<HomePage> {
     // const MyTurfsPage(), // 1
     const ListMyTurfs(), // 2
     const  MyTurfsPage(),
-    const  ProfilePage()// 3
+    const  GetUserProfile()// 3
   ];
 
   List<BottomNavigationBarItem> navBaritems = [

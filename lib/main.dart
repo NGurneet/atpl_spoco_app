@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:spoco_app/firebase_options.dart';
+import 'package:spoco_app/pages/get-user-profile.dart';
 import 'package:spoco_app/pages/home-page.dart';
 import 'package:spoco_app/pages/login-page.dart';
 import 'package:spoco_app/pages/my-turfs-page.dart';
@@ -62,8 +63,8 @@ class MainApp extends StatelessWidget {
       '/add-user-club': (context) => const UserClub(),
       '/add-user-organization':(context) => UserOrganization(),
       '/add-user-username':(context) => UserUsername(),
-      '/save-user-profile': (context) => SaveUserDataPage()
-      // 'user-profile':(context)=> const ProfilePage(),
+      '/save-user-profile': (context) => SaveUserDataPage(),
+       '/get-user-profile':(context)=> const GetUserProfile(),
       // '/register-turf':(context)=> const RegisterTurf(),
       // '/slider-page':(context)=> const SliderPage(),
       // '/add-task': (context)=> const AddTask(),
